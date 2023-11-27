@@ -2,12 +2,11 @@
 Codes used for teaching about Deep Generative Models (DGM). All algorithms are coded using Torch. Note that these algorithms are for pedagogical purposes, so they might not be the best in terms of performance and/or efficiency.
 
 ## Simple models
-The algorithms implemented for model-free DRL are the following (all tested on the Cartpole problem):
-* [DDQN](/model_free/DDQN_cartpole.ipynb) (Double Deep Q-Networks)
-* [VPG](/model_free/VPG_cartpole.ipynb) (Vanilla Policy Gradient)
-* [A2C](/model_free/A2C_cartpole.ipynb) (Advantage Actor Critic)
-* [TRPO](/model_free/TRPO_cartpole.ipynb) (Trust Region Policy Optimization, note that in this case, we use the implementation of Stable Baselines 3 instead of providing an implementation to show a state-of-the-art library)
-* [DDPG](/model_free/DDPG_cartpole.ipynb) (Deep Deterministic Policy Gradient)
+These codes are intended to understand some of the basic principles underlying a Generative Model and classical methods used to sample from distributions. 
+* [Gaussian mixture](/simple_models/gaussian_mixture.ipynb) (PASD: Example 1.5) presents the simple case of having a Gaussian Mixture Model.
+* [Gibbs sampling of a bivariate Gaussian](/simple_models/gibbs_gaussian.ipynb) (PASD: Example 1.6) shows an step-by-step implementation of a Gibbs sampler on a bivariate Gaussian distribution.
+* [Gibbs sampling of a bivariate Gaussian](/simple_models/gibbs_hierarchical_gaussian.ipynb) (PASD: Example 1.7) shows another step-by-step implementation of a Gibbs sampler, in this case applied to inferring the parameters of a hierarchical Gaussian distribution. This exercise highlights that Gibbs can be used to sample from an unknwown posterior, provided that we can sample from the conditional distributions. 
+
 
 # Execution in Google Colab
 
