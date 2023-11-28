@@ -3,10 +3,12 @@ Codes used for teaching about Deep Generative Models (DGM). All algorithms are c
 
 ## Simple models
 These codes are intended to understand some of the basic principles underlying a Generative Model and classical methods used to sample from distributions. 
-* [Gaussian mixture](/simple_models/gaussian_mixture.ipynb) (PASD: Example 1.5) presents the simple case of having a Gaussian Mixture Model.
-* [Gibbs sampling of a bivariate Gaussian](/simple_models/gibbs_gaussian.ipynb) (PASD: Example 1.6) shows an step-by-step implementation of a Gibbs sampler on a bivariate Gaussian distribution.
-* [Gibbs sampling of a hierarchical Gaussian](/simple_models/gibbs_hierarchical_gaussian.ipynb) (PASD: Example 1.7) shows another step-by-step implementation of a Gibbs sampler, in this case applied to inferring the parameters of a hierarchical Gaussian distribution. This exercise highlights that Gibbs can be used to sample from an unknwown posterior, provided that we can sample from the conditional distributions.
-* [E-M example on a Gaussian mixture](/simple_models/gaussian_mixture_em.ipynb) (PASD: Example 2.4) particularizes the E-M algorithm to a Gaussian Mixture model and implements the method step-by-step.
+* [Gaussian mixture](/simple_models/gaussian_mixture.ipynb) presents the simple case of having a Gaussian Mixture Model.
+* [Gibbs sampling of a bivariate Gaussian](/simple_models/gibbs_gaussian.ipynb) shows an step-by-step implementation of a Gibbs sampler on a bivariate Gaussian distribution.
+* [Gibbs sampling of a hierarchical Gaussian](/simple_models/gibbs_hierarchical_gaussian.ipynb) shows another step-by-step implementation of a Gibbs sampler, in this case applied to inferring the parameters of a hierarchical Gaussian distribution. This exercise highlights that Gibbs can be used to sample from an unknwown posterior, provided that we can sample from the conditional distributions.
+* [E-M example on a Gaussian mixture](/simple_models/gaussian_mixture_em.ipynb) particularizes the E-M algorithm to a Gaussian Mixture model and implements the method step-by-step.
+* [E-M example on a Gaussian mixture](/simple_models/gaussian_mixture_em.ipynb) particularizes the E-M algorithm to a Gaussian Mixture model and implements the method step-by-step.
+* [Estimation of a noisy vector](/simple_models/unknown_vector_inference.ipynb) shows an inference example of an unknown vector from noisy measurements.
 
 ## PASD students guide
 
@@ -16,6 +18,7 @@ These codes are intended to understand some of the basic principles underlying a
 | 1.6   | [Gibbs sampling of a bivariate Gaussian](/simple_models/gibbs_gaussian.ipynb)        |
 | 1.7   | [Gibbs sampling of a hierarchical Gaussian](/simple_models/gibbs_hierarchical_gaussian.ipynb)       |
 | 2.4   | [E-M example on a Gaussian mixture](/simple_models/gaussian_mixture_em.ipynb)       |
+| 2.9   | [Estimation of a noisy vector](/simple_models/unknown_vector_inference.ipynb)       |
 
 # Execution in Google Colab
 
