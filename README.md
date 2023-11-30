@@ -11,6 +11,10 @@ These codes are intended to understand some of the basic principles underlying a
 * [Estimation of a noisy vector](/simple_models/unknown_vector_inference.ipynb) shows an inference example of an unknown vector from noisy measurements.
 * [VI with MF on a hierarchical Gaussian](/simple_models/vi_mean_field.ipynb) shows an example of Variational Inference using a Mean-Field approximation on a hierarchical Gaussian distribution.
 
+## DGM models
+These coes are intended to understand and exemplify some of the key ideas used in Deep Generative models. Hence, the methods used are simplified so as to maximize the understanding of the principles underlying these methods, and their performance is clearly limited against state-of-the-art implementations. 
+* [Linear flow with Gaussian data](/dgm/linear_flow_gaussian.ipynb) shows how to implement a simple linear flow to transform a Gaussian distribution into another one, making special emphasis on the random variable transformation involved.
+
 ## PASD students guide
 
 | Example      | Link |
@@ -20,7 +24,9 @@ These codes are intended to understand some of the basic principles underlying a
 | 1.7   | [Gibbs sampling of a hierarchical Gaussian](/simple_models/gibbs_hierarchical_gaussian.ipynb)       |
 | 2.4   | [E-M example on a Gaussian mixture](/simple_models/gaussian_mixture_em.ipynb)       |
 | 2.9   | [Estimation of a noisy vector](/simple_models/unknown_vector_inference.ipynb)       |
-| 2.13   | [VI with MF on a hierarchical Gaussian](/simple_models/vi_mean_field.ipynb)       |
+| 2.13  | [VI with MF on a hierarchical Gaussian](/simple_models/vi_mean_field.ipynb)       |
+| 3.4   | [Linear flow with Gaussian data](/dgm/linear_flow_gaussian.ipynb)       |
+
 
 # Execution in Google Colab
 
