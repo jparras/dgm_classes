@@ -9,6 +9,7 @@ These codes are intended to understand some of the basic principles underlying a
 * [E-M example on a Gaussian mixture](/simple_models/gaussian_mixture_em.ipynb) particularizes the E-M algorithm to a Gaussian Mixture model and implements the method step-by-step.
 * [E-M example on a Gaussian mixture](/simple_models/gaussian_mixture_em.ipynb) particularizes the E-M algorithm to a Gaussian Mixture model and implements the method step-by-step.
 * [Estimation of a noisy vector](/simple_models/unknown_vector_inference.ipynb) shows an inference example of an unknown vector from noisy measurements.
+* [VI with MF on a hierarchical Gaussian](/simple_models/vi_mean_field.ipynb) shows an example of Variational Inference using a Mean-Field approximation on a hierarchical Gaussian distribution.
 
 ## PASD students guide
 
@@ -19,6 +20,7 @@ These codes are intended to understand some of the basic principles underlying a
 | 1.7   | [Gibbs sampling of a hierarchical Gaussian](/simple_models/gibbs_hierarchical_gaussian.ipynb)       |
 | 2.4   | [E-M example on a Gaussian mixture](/simple_models/gaussian_mixture_em.ipynb)       |
 | 2.9   | [Estimation of a noisy vector](/simple_models/unknown_vector_inference.ipynb)       |
+| 2.13   | [VI with MF on a hierarchical Gaussian](/simple_models/vi_mean_field.ipynb)       |
 
 # Execution in Google Colab
 
