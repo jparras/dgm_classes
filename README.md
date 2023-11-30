@@ -14,6 +14,7 @@ These codes are intended to understand some of the basic principles underlying a
 ## DGM models
 These coes are intended to understand and exemplify some of the key ideas used in Deep Generative models. Hence, the methods used are simplified so as to maximize the understanding of the principles underlying these methods, and their performance is clearly limited against state-of-the-art implementations. 
 * [Linear flow with Gaussian data](/dgm/linear_flow_gaussian.ipynb) shows how to implement a simple linear flow to transform a Gaussian distribution into another one, making special emphasis on the random variable transformation involved.
+* [Linear Autoencoder with MNIST](/dgm/linear_ae_mnist.ipynb) implements a Linear Autoencoder and trains it on the MNIST data. It also explores how the latent representation affects the quality of the reconstruction.
 
 ## PASD students guide
 
@@ -26,6 +27,7 @@ These coes are intended to understand and exemplify some of the key ideas used i
 | 2.9   | [Estimation of a noisy vector](/simple_models/unknown_vector_inference.ipynb)       |
 | 2.13  | [VI with MF on a hierarchical Gaussian](/simple_models/vi_mean_field.ipynb)       |
 | 3.4   | [Linear flow with Gaussian data](/dgm/linear_flow_gaussian.ipynb)       |
+| 3.5   | [Linear Autoencoder with MNIST](/dgm/linear_ae_mnist.ipynb)       |
 
 
 # Execution in Google Colab
