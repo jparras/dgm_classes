@@ -8,7 +8,6 @@ These codes are intended to understand some basic principles underlying a Genera
 * [Gibbs sampling of a bivariate Gaussian](/simple_models/gibbs_gaussian.ipynb) shows a step-by-step implementation of a Gibbs sampler on a bivariate Gaussian distribution.
 * [Gibbs sampling of a hierarchical Gaussian](/simple_models/gibbs_hierarchical_gaussian.ipynb) shows another step-by-step implementation of a Gibbs sampler, in this case applied to inferring the parameters of a hierarchical Gaussian distribution. This exercise highlights that Gibbs can be used to sample from an unknwown posterior, provided that we can sample from the conditional distributions.
 * [E-M example on a Gaussian mixture](/simple_models/gaussian_mixture_em.ipynb) particularizes the E-M algorithm to a Gaussian Mixture model and implements the method step-by-step.
-* [Estimation of a noisy vector](/simple_models/unknown_vector_inference.ipynb) shows an inference example of an unknown vector from noisy measurements.
 * [VI with MF on a hierarchical Gaussian](/simple_models/vi_mean_field.ipynb) shows an example of Variational Inference using a Mean-Field approximation on a hierarchical Gaussian distribution.
 
 ## DGM models
