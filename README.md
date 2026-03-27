@@ -18,6 +18,9 @@ These codes are intended to understand and exemplify some key ideas used in Deep
 * [Variational Autoencoder with MNIST](/dgm/vae_mnist.ipynb) implements a Variational Autoencoder and trains it on the MNIST data. This example explores the latent space of the VAE, showing some of the insights that it provides.
 * [Generative Adversarial Network with MNIST](/dgm/gan_mnist.ipynb) implements a Generative Adversarial Network and trains it on the MNIST data.
 
+## Videos
+The videos used in class to better understand some key ideas behind Deep Generative Models.
+
 ## PASD students guide
 
 | Name | Link | Observations            |
